@@ -3,9 +3,8 @@ module github.com/xBlaz3kx/vault-examples
 go 1.23
 
 require (
-	github.com/google/uuid v1.6.0
 	github.com/hashicorp/vault/api v1.16.0
-	github.com/samber/oops v1.16.1
+	github.com/samber/oops v1.17.0
 )
 
 require (
