@@ -1,0 +1,18 @@
+services:
+  # Vault for secret and certificate storage
+  vault:
+    container_name: vault
+    image: hashicorp/vault:1.18.4
+    restart: always
+    cap_add:
+      - IPC_LOCK
+    environment:
+      - VAULT_DEV_ROOT_TOKEN_ID=00000000-0000-0000-0000-000000000000
+      #- VAULT_DEV_LISTEN_ADDRESS=http://0.0.0.0:8200
+    volumes:
+      - vault:/data
+    ports:
+      - "8200:8200"
+
+volumes:
+  vault:
