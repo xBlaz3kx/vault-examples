@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/hashicorp/vault/api v1.16.0
-	github.com/samber/oops v1.19.0
+	github.com/samber/oops v1.19.3
 )
 
 require (
