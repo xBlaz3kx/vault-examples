@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/hashicorp/vault/api v1.16.0
-	github.com/samber/oops v1.21.0
+	github.com/samber/oops v1.22.0
 )
 
 require (
@@ -25,7 +25,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/oklog/ulid/v2 v2.1.1 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
-	github.com/samber/lo v1.52.0 // indirect
+	github.com/samber/lo v1.53.0 // indirect
 	go.opentelemetry.io/otel v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
 	golang.org/x/net v0.47.0 // indirect
