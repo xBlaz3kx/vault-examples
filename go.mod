@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/hashicorp/vault/api v1.16.0
-	github.com/samber/oops v1.22.0
+	github.com/samber/oops v1.23.0
 )
 
 require (
