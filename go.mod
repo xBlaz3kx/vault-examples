@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/hashicorp/vault/api v1.16.0
-	github.com/samber/oops v1.23.0
+	github.com/samber/oops v1.23.1
 )
 
 require (
@@ -21,7 +21,7 @@ require (
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/oklog/ulid/v2 v2.1.1 // indirect
+	github.com/oklog/ulid/v2 v2.1.2 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/samber/lo v1.53.0 // indirect
 	go.opentelemetry.io/otel v1.29.0 // indirect
